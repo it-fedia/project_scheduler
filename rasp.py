@@ -1,5 +1,5 @@
 import pandas as pd
-file_path = r"C:\Users\User\ФМиЕН_ расписание 3 модуль_2025_бакалавры (1).xlsx"
+file_path = r"ФМиЕН_ расписание 3 модуль_2025_бакалавры (1).xlsx"
 
 xls = pd.ExcelFile(file_path)
 df = pd.read_excel(xls, sheet_name="ФМиЕН")
