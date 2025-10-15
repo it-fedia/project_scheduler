@@ -121,7 +121,6 @@ def efficient_groupby_operations(df_selected):
     return None
 
 def parallel_discipline_processing(df_selected):
-    """Обработка данных по дисциплинам с оптимизацией"""
     if 'Дисциплина' not in df_selected.columns or 'Преподаватель' not in df_selected.columns:
         return None
     
